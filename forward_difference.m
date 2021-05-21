@@ -1,4 +1,4 @@
-function U = forward_diffence(t_min,t_max,tau,x_min,x_max,h,phi,f)
+function U = forward_difference(t_min,t_max,tau,x_min,x_max,h,phi,f)
 %FORWARD_DIFFENCE 此处显示有关此函数的摘要
 %       compUte the nUmerical solUtion for U 
 %       x in (0,1) t > 0
