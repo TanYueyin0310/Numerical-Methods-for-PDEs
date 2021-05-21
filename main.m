@@ -9,6 +9,7 @@ x_min = 0;
 x_max = 1;
 X = x_min : h : x_max;
 T = t_min : tau : t_max;
+
 %% 求数值解和真解
 U = forward_diffence(t_min,t_max,tau,x_min,x_max,h,phi,f);
 U_true = analytical_solution(0,1,tau,0,1,h);
