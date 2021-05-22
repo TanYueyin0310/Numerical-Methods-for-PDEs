@@ -9,13 +9,13 @@ r = tau / (h * h);
 U = zeros(length(T),length(X));
 %% 求解U的数值解
 U(1,:) = phi(X); %初值条件
-A_temp1 = (2*r+1)*eye(length(X));
-A_temp2 = diag(-r*ones(length(X)-1,1),1);
+A_temp1 = (2 * r + 1) * eye(length(X));
+A_temp2 = diag(-r * ones(length(X)-1,1),1);
 A = A_temp1 + A_temp2 + A_temp2';
-A(1,2) = -2*r;
-A(end,end-1) = -2*r; %构造系数矩阵
+A(1,2) = -2 * r;
+A(end,end-1) = -2 * r; %构造系数矩阵
 for k = 2 : length(T)
-    b = tau * f(T(k))*ones(length(X),1) + U(k-1,:)';
+    b = tau * f(T(k)) * ones(length(X),1) + U(k-1,:)';
     U(k,:) = (A\b)';
 end
     
