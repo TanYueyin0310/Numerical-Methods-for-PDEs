@@ -1,12 +1,14 @@
 %% 参数赋值
 tau = 1/5000;
 h = 1/100;
-phi = @(x)(cos(pi*x));
-f = @(x)(sin(x));
+% phi = @(x)(cos(pi*x)); %PDE1问题中的的边值条件
+% f = @(x)(sin(x)); %PDE1的问题中微分方程的右端项
 t_min = 0;
 t_max = 1;
 x_min = 0;
 x_max = 1;
+y_min = 0; %PDE2
+y_max = 1;
 X = x_min : h : x_max;
 T = t_min : tau : t_max;
 method_name = "Crank-Nicolson Method";
