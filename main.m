@@ -14,7 +14,7 @@ method_name = "Crank-Nicolson Method";
 %U = forward_difference(t_min,t_max,tau,x_min,x_max,h,phi,f);
 %U = backward_difference(t_min,t_max,tau,x_min,x_max,h,phi,f);
 U = crank_nicolson(t_min,t_max,tau,x_min,x_max,h,phi,f);
-U_true = analytical_solution(t_min,t_max,tau,x_min,x_max,h);
+U_true = analytical_solution1(t_min,t_max,tau,x_min,x_max,h);
 %% 画图
 figure()
 Fig1 = mesh(X,T,U);%解的图像
