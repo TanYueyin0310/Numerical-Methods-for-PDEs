@@ -1,4 +1,4 @@
-function [error_max_list,error_l2_list] = error_analysis(t_min,t_max,tau,x_min,x_max,h_list,phi,f,numerical_method,method_name)
+function [error_max_list,error_l2_list] = error_analysis1(t_min,t_max,tau,x_min,x_max,h_list,phi,f,numerical_method,method_name)
 %% 参数赋值
 % tau = 1/20000;
 % h_list = [1/2 1/5 1/10 1/16 1/40 1/50];
