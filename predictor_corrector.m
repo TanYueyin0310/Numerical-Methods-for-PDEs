@@ -20,7 +20,6 @@ for n = 2 : length(T)
     end
 end
 %% 构造PC差分格式
-% 从第n层计算n+1/2层
 A_temp1 = (1 + r) * eye(length(Y) - 2);
 A_temp2 = diag(-0.5 * r * ones(length(Y) - 3,1),1);
 A = A_temp1 + A_temp2 + A_temp2';
