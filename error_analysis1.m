@@ -39,13 +39,30 @@ end
 %% 画图
 row_num = 10;%选择画某一层（行）的误差分析图
 figure()
-plot(log(h_list),-log(error_l2_list(row_num,:)),'linewidth',2);
+plot(log(h_list),log(error_l2_list(row_num,:)),'linewidth',2);
 hold on
-plot(log(h_list),-2*log(h_list),'- ','linewidth',2);
+plot(log(h_list),2*log(h_list),'- ','linewidth',2);
 xlabel('$log(h)$','interpreter','latex');
-ylabel('$-log(error)$','interpreter','latex');
-annotation('textarrow','String','slope = -2 ','fontsize',14,'interpreter','latex');
-title(strcat("Analysis of the Order of Error(",method_name,")"),'interpreter','latex');
+ylabel('$log(error)$','interpreter','latex');
+title(strcat("Analysis of the Order of $l_{2}$-norm Error(",method_name,")"),'interpreter','latex');
+legend('$Numerical$','$Theoretical$','interpreter','latex');
 hold off
+figure()
+plot(log(h_list),log(error_max_list(row_num,:)),'linewidth',2);
+hold on
+plot(log(h_list),2*log(h_list),'- ','linewidth',2);
+xlabel('$log(h)$','interpreter','latex');
+ylabel('$log(error)$','interpreter','latex');
+title(strcat("Analysis of the Order of $l_{\infty}$-norm Error(",method_name,")"),'interpreter','latex');
+legend('$Numerical$','$Theoretical$','interpreter','latex');
+hold off
+%% 输出数值误差阶
+disp(h_list);
+disp(error_l2_list(row_num,:))
+p = polyfit(log(h_list),log(error_l2_list(row_num,:)),1);
+disp(strcat("The Numerical Order of l2-norm Error(",method_name,") = ",string(p(1))));
+disp(h_list);
+disp(error_max_list(row_num,:))
+p = polyfit(log(h_list),log(error_max_list(row_num,:)),1);
+disp(strcat("The Numerical Order of l_infty-norm Error(",method_name,") = ", string(p(1))));
 end
-        
