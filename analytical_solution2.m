@@ -8,10 +8,9 @@ U_true = zeros(length(Y),length(X),length(T));
 for n = 1 : length(T)
     for j = 1 : length(X)
         for k = 1 : length(Y)
-            U_true(k,j,n) = sin(pi*X(j)) * cos(pi*Y(k)) * exp(-pi*pi/8*T(n)*T(n));
+            U_true(k,j,n) = sin(pi*X(j)) * cos(pi*Y(k)) * exp(-pi*pi/8*T(n));
         end
     end
 end
-mesh(X,Y,U_true(:,:,1));
 end
 
