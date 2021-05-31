@@ -2,7 +2,6 @@ function [error_max_list,error_l2_list] = error_analysis2(t_min,t_max,tau,x_min,
 %% 参数赋值
 error_max_list = []; %存储不同h取值时的最大模范数向量（因为每个离散时间层上都有一个最大模范数值）
 error_l2_list = [];
-
 %% 计算误差
 for i = 1 : length(h_list)
     h = h_list(i);
