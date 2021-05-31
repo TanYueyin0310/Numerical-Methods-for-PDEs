@@ -20,6 +20,5 @@ for k = 1 : length(T) - 1
         end
     end
 end         
-        
 end
 
