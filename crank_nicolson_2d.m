@@ -10,6 +10,7 @@ knots_num = length(Y) * length(X);
 A = sparse(eye(knots_num));
 b = sparse(zeros(knots_num,1));
 U_temp = sparse(zeros(knots_num,1));
+
 %% 初值条件
 for j = 1 : length(X)
     for k = 1 : length(Y)
