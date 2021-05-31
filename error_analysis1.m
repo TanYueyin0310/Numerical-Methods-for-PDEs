@@ -2,6 +2,7 @@ function [error_max_list,error_l2_list] = error_analysis1(t_min,t_max,tau,x_min,
 %% 参数赋值
 error_l2_list = [];
 error_max_list = [];
+
 %% 计算误差
 for i = 1 : length(h_list)
     h = h_list(i);
