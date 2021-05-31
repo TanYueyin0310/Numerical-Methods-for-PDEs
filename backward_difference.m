@@ -18,6 +18,5 @@ for k = 2 : length(T)
     b = tau * f(T(k)) * ones(length(X),1) + U(k-1,:)';
     U(k,:) = (A\b)';
 end
-    
 end
 
