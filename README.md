@@ -12,8 +12,8 @@ Course project for Numerical Solution of Partial Differential Equations(NPDE) ta
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/tanyueyin0310/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/tanyueyin0310/repo_name/issues
+[issues-url]: https://github.com/tanyueyin0310/Numerical-Methods-for-PDEs/issues
 [license-shield]: https://img.shields.io/github/license/tanyueyin0310/repo.svg?style=for-the-badge
-[license-url]: https://github.com/tanyueyin0310/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/tanyueyin0310/Numerical-Methods-for-PDEs/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tanyueyin
