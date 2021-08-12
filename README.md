@@ -3,6 +3,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -14,7 +15,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -47,17 +47,6 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -66,7 +55,6 @@ This is an example of how to list things you need to use the software and how to
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
 
 
 
@@ -82,7 +70,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/github_username/Numerical-Methods-for-PDEs_name](https://github.com/github_username/Numerical-Methods-for-PDEs_name)
 
 
 
@@ -93,19 +81,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 
-# Numerical-Methods-for-PDEs
-
-## About the project
-
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/tanyueyin0310/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/tanyueyin0310/Numerical-Methods-for-PDEs.svg?style=for-the-badge
 [issues-url]: https://github.com/tanyueyin0310/Numerical-Methods-for-PDEs/issues
-[license-shield]: https://img.shields.io/github/license/tanyueyin0310/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/tanyueyin0310/Numerical-Methods-for-PDEs.svg?style=for-the-badge
 [license-url]: https://github.com/tanyueyin0310/Numerical-Methods-for-PDEs/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tanyueyin
