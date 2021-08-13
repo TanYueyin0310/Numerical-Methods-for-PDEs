@@ -22,7 +22,37 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Course project for Numerical Solution of Partial Differential Equations(NPDE) taught by Prof. Duan Huoyuan, Wuhan University.
+This is a *course project* for Numerical Solution of Partial Differential Equation(NPDE), School of Mathematics and Statistics, Wuhan University. The lecturer is Prof. Duan Huoyuan.
+
+In this project, there are implementations of 6 numerical methods for 2 parabolic partial differential equations:
+
+- For one-dimentional equation
+  - Forward Finite Difference Scheme
+  - Backward Finite Difference Scheme
+  - Crank-Nicolson Scheme
+- For two-dimensional equation
+  - Alternating-Direction Implicit Scheme(ADI)
+  - Predictor-Corrector Scheme
+  - Locally One-Dimensional Scheme(LOD)
+
+Note that the codes in this project compute the numerical solutions of these following 2 PDEs.
+- One-dimentional equation
+$$
+\begin{cases}
+\frac{\partial u}{\partial t} =  \frac{\partial ^2 f}{\partial ^2 x} + \sin{t}(0<x<1,t>0)\\
+u_x(0,t)=u_x(1,t)=0(t>0)\\
+u(x,0)=\cos{\pi x}(0<x<1)
+\end{cases}
+$$
+- Two-dimensional equation
+$$
+\begin{cases}
+\frac{\partial u}{\partial t} =  4^{-2}(u_{xx}+u_{yy})((x,y)\in G=(0,1),t>0)\\
+u(0,y,t)=u(1,y,t)=0(0<y<1,t>0)\\
+u_y(x,o,t)=u_y(x,1,t)=0(0<x<1,t>0)\\
+u(x,y,0)=\sin{\pi x}\cos{\pi y}
+\end{cases}
+$$
 
 
 
@@ -52,10 +82,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/Numerical-Methods-for-PDEs_name](https://github.com/github_username/Numerical-Methods-for-PDEs_name)
-
+Yueyin Tan - tanyueyin@outlook.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
