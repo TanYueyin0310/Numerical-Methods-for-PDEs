@@ -42,7 +42,7 @@ Note that the codes in this project compute the numerical solutions of these fol
 
   ![PDEs_2d](./pic/PDEs_2d.png)
 
-After the numerical solution to each problem is given, the results of further analyses (including error distribution and estimated order of accuracy) are in [experiment report](./experiment report.md).
+After the numerical solution to each problem is given, the results of further analyses (including error distribution and estimated order of accuracy) are in [experiment report](experiment report.md).
 
 
 
